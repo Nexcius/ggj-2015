@@ -8,6 +8,7 @@ public class MonsterController : Entity {
     [SerializeField]
     protected float speed = 1.0f;
 
+	private bool isIdle = false;
 	private Animator _animator;
 
 
@@ -19,15 +20,21 @@ public class MonsterController : Entity {
         patrolTo = new Vector2(pTo.position.x, pTo.position.y);
 
 		_animator = GetComponent<Animator>();
+		_animator.Play(Animator.StringToHash("Walk"));
 	}
 	
 
     protected override void FixedUpdate()
     {
+		if (isIdle) {
+
+			return;
+		}
         if (transform.position.x < startPos.x ||
             transform.position.x > patrolTo.x)
         {
             speed *= -1.0f;
+
         }
         velocity.x = speed;
 
@@ -38,11 +45,16 @@ public class MonsterController : Entity {
 			transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 		}
 
-		_animator.Play(Animator.StringToHash("Walk"));
-
         base.FixedUpdate();
         
     }
+
+	void OnCollisionEnter2D(Collision2D col) {
+		if (col.gameObject.tag == "Player") {
+			_animator.Play(Animator.StringToHash("Idle"));
+			isIdle = true;
+		}
+	}
 
     
 }

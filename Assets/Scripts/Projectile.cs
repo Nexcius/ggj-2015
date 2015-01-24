@@ -14,11 +14,17 @@ public class Projectile : Entity {
 
 	protected GameObject splatter;
 
+	[SerializeField]
+	protected GameObject ingameCamObject;
+	private IngameCam ingameCam;
+
 	// Use this for initialization
 	void Start () {
 		monsterRespawn = monsterRespawnObj.GetComponent<MonsterRespawn> ();
+		ingameCam = ingameCamObject.GetComponent<IngameCam>();
 
 		splatter = transform.FindChild ("Splatter").gameObject;
+		//ingameCamObject.SetActive(false);
 
 	}
 	
@@ -48,6 +54,8 @@ public class Projectile : Entity {
 
 			col.gameObject.SetActive(false);
 			monsterRespawn.RegisterForRespawn(col.gameObject, 10.0f);
+
+			ingameCam.Play();
 		}
 		if (col.gameObject.layer == LayerMask.NameToLayer ("World")) {
 			gameObject.SetActive(false);

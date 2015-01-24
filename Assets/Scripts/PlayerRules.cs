@@ -4,7 +4,9 @@ using System.Collections;
 public class PlayerRules : MonoBehaviour {
 	protected const float VOID_HEIGHT = -50.0f;
 	GameObject splatter;
-	// Use this for initialization
+
+	private Vector2 diedPos = Vector2.zero;
+
 	void Start () {
 		splatter = transform.FindChild ("PlayerSplatter").gameObject;
 	}
@@ -15,9 +17,13 @@ public class PlayerRules : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
+		if(diedPos != Vector2.zero) {
+			transform.position = diedPos;
+		}
+
 		if (transform.position.y <= VOID_HEIGHT) {
-			// DEATH
-			Debug.Log ("DEATH");
+			renderer.enabled = false;
+			diedPos = transform.position;
 		}
 	}
 
@@ -25,14 +31,13 @@ public class PlayerRules : MonoBehaviour {
 		if (col.gameObject.layer == LayerMask.NameToLayer ("Enemy")) {
 			Debug.Log ("PLAYER DEATH: ENEMY");
 			splatter.SetActive(true);
+			renderer.enabled = false;
+			diedPos = transform.position;
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
-		if (col.gameObject.layer == LayerMask.NameToLayer ("Enemy")) {
-			// TRIGGER ENEMY
-		}
-		else if(col.tag == "Collectible") {
+		if(col.tag == "Collectible") {
 			Collectible collectibleScript = col.gameObject.GetComponent<Collectible>();
 			collectibleScript.Collect();
 		}
