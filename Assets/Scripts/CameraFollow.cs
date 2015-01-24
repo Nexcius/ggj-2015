@@ -12,9 +12,11 @@ public class CameraFollow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Vector3 newPos = player.transform.position;
-        newPos.z = transform.position.z;
+		if(player.renderer.enabled) {
+	        Vector3 newPos = player.transform.position;
+	        newPos.z = transform.position.z;
 
-        transform.position = newPos;
+	        transform.position = newPos;
+		}
 	}
 }
