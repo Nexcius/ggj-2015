@@ -2,22 +2,36 @@
 using System.Collections;
 
 public class Retricle : MonoBehaviour {
+    private GameObject player; 
+
+    [SerializeField]
+    protected float distanceFromPlayer = 5.0f;
+
+    protected Vector2 aimDir;
 
 	// Use this for initialization
 	void Start () {
-	
+        player = GameObject.FindGameObjectWithTag("Player");
+
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		Vector2 mousePos = Input.mousePosition;
+    void OnGUI()
+    {
 		if (Input.mousePosition != null) {
-			Vector2 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-			transform.position = pos;
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            aimDir = mousePos - (Vector2)player.transform.position;
+            aimDir.Normalize();
+
+            Vector2 aimPos = (Vector2)player.transform.position + (aimDir * distanceFromPlayer);
+
+            transform.position = aimPos;
 		} 	
 	}
 
-	void OnGUI() {
-
-	}
+    public Vector2 GetAimDir()
+    {
+        return aimDir;
+    }
 }
