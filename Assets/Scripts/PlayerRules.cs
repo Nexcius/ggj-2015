@@ -32,6 +32,10 @@ public class PlayerRules : MonoBehaviour {
 		if (col.gameObject.layer == LayerMask.NameToLayer ("Enemy")) {
 			// TRIGGER ENEMY
 		}
+		else if(col.tag == "Collectible") {
+			Collectible collectibleScript = col.gameObject.GetComponent<Collectible>();
+			collectibleScript.Collect();
+		}
 	}
 
 }

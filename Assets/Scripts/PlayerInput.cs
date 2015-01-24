@@ -114,6 +114,8 @@ public class PlayerInput : MonoBehaviour
                 var targetJumpHeight = 2f;
                 velocity.y = Mathf.Sqrt(2f * targetJumpHeight * -gravity);
                 _animator.Play(Animator.StringToHash("Jump"));
+
+				audio.Play();
             }
         }
 
