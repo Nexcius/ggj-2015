@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: napoleon
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: efcf36e06bd30c848af85b3a4d23a386, type: 3}
+    - time: .0166666675
+      value: {fileID: 21300000, guid: 67076622fef39994aa6ba1d11a1a38a6, type: 3}
+    - time: .0333333351
+      value: {fileID: 21300000, guid: ff554484d10d5e343a2fc240ec8e9993, type: 3}
+    - time: .0500000007
+      value: {fileID: 21300000, guid: ff78fc64d8f73f949b4f774775ba80e6, type: 3}
+    - time: .0666666701
+      value: {fileID: 21300000, guid: cdf1f0ad2eed6f34181da0b73e763f1b, type: 3}
+    - time: .0833333358
+      value: {fileID: 21300000, guid: c8c69215da5669449bbc8dd1b56a17c4, type: 3}
+    - time: .100000001
+      value: {fileID: 21300000, guid: a1091542ff960484eb688857ebb161eb, type: 3}
+    - time: .116666667
+      value: {fileID: 21300000, guid: 60b9986dab9e1af468c6efe37930f57e, type: 3}
+    - time: .13333334
+      value: {fileID: 21300000, guid: 8490ea76ffc2d6e48837b126b2367b9c, type: 3}
+    - time: .150000006
+      value: {fileID: 21300000, guid: 52e76ed3b4a408145a6d19495ee4f4ca, type: 3}
+    - time: .166666672
+      value: {fileID: 21300000, guid: b53aa7d57961aa24981fe345c9b0b08d, type: 3}
+    - time: .183333337
+      value: {fileID: 21300000, guid: a84ce4ea0e2a43742af082ea85856202, type: 3}
+    - time: .200000003
+      value: {fileID: 21300000, guid: 203a3c6b62678434ca601a0324efdab8, type: 3}
+    - time: .216666669
+      value: {fileID: 21300000, guid: 04194e8922f515447a5977fa826fb638, type: 3}
+    - time: .233333334
+      value: {fileID: 21300000, guid: 84b69853f7f1faf48854b80d7c6ceca1, type: 3}
+    - time: .25
+      value: {fileID: 21300000, guid: fd5d9a3372abaf242967bd88dd291687, type: 3}
+    - time: .266666681
+      value: {fileID: 21300000, guid: 15f9d16ecd24cb540a43f783e1d79069, type: 3}
+    - time: .283333361
+      value: {fileID: 21300000, guid: 9245cd65425c7a249bd16649059f8d8d, type: 3}
+    - time: .300000042
+      value: {fileID: 21300000, guid: b8dbd01cf9ce49f4285b646bbe7aa860, type: 3}
+    - time: .316666722
+      value: {fileID: 21300000, guid: 4ac96dec9fa8e5f4d8d7fa100be76432, type: 3}
+    - time: .333333403
+      value: {fileID: 21300000, guid: a5d70da4a887e914cbe5c5e685d26c18, type: 3}
+    - time: .350000083
+      value: {fileID: 21300000, guid: 62f372ab7960bb24d97fd921a999f12f, type: 3}
+    - time: .366666764
+      value: {fileID: 21300000, guid: d7c07db76e8dc1045b1fba02ab549a2b, type: 3}
+    - time: .383333445
+      value: {fileID: 21300000, guid: 5668cce839543bd4497f7b3bd17d3d0f, type: 3}
+    - time: .400000125
+      value: {fileID: 21300000, guid: cacf644ea078c07448cdfb7993f7d33d, type: 3}
+    - time: .416666806
+      value: {fileID: 21300000, guid: b82748b089e7be249b58c455c3f91f3b, type: 3}
+    - time: .433333486
+      value: {fileID: 21300000, guid: 408bcfd74bb30274b912477f68fcde32, type: 3}
+    - time: .450000167
+      value: {fileID: 21300000, guid: 07cff024e20c92848bddced9be16de49, type: 3}
+    - time: .466666847
+      value: {fileID: 21300000, guid: 56bb043ddca6f534c885b3f5cca2e02b, type: 3}
+    - time: .483333528
+      value: {fileID: 21300000, guid: d6e5ffad3f3a78149b30c3c498833565, type: 3}
+    - time: .500000179
+      value: {fileID: 21300000, guid: a6156f6904021714c9a984229d4ef4e1, type: 3}
+    - time: .51666683
+      value: {fileID: 21300000, guid: ac2b1c6c7d4bf2840b32eb86cef0be84, type: 3}
+    - time: .53333348
+      value: {fileID: 21300000, guid: 426b6706439380f4ab2b543e17045013, type: 3}
+    - time: .550000131
+      value: {fileID: 21300000, guid: 40a4ce27cab58a44c9e124054958f914, type: 3}
+    - time: .566666782
+      value: {fileID: 21300000, guid: c8912d018d402c447951e2768ff0122e, type: 3}
+    - time: .583333433
+      value: {fileID: 21300000, guid: d0b56b5b9131e114886eb5d777600916, type: 3}
+    - time: .600000083
+      value: {fileID: 21300000, guid: 379b74eb47a5ce9448c3d8e333166064, type: 3}
+    - time: .616666734
+      value: {fileID: 21300000, guid: bf310f0be082e4145be6d1dd3bfa8941, type: 3}
+    - time: .633333385
+      value: {fileID: 21300000, guid: ca4f812330ff83f41b64e5a3fbc65934, type: 3}
+    - time: .650000036
+      value: {fileID: 21300000, guid: 5e952f3e6538a6d42a173a1516a293e3, type: 3}
+    - time: .666666687
+      value: {fileID: 21300000, guid: 1d44207c318df5e40bd6ec4711275c73, type: 3}
+    - time: .683333337
+      value: {fileID: 21300000, guid: c149c501be34d6a4fbb1d3674dffa5fd, type: 3}
+    - time: .699999988
+      value: {fileID: 21300000, guid: 40e96f6de442b8648b6a69559aea8ebb, type: 3}
+    - time: .716666639
+      value: {fileID: 21300000, guid: 506a121eaca41c84680600324e217c0a, type: 3}
+    - time: .73333329
+      value: {fileID: 21300000, guid: 781ad40a5711f104283849397baa3f1b, type: 3}
+    - time: .74999994
+      value: {fileID: 21300000, guid: f87a26a0ec085bd42bd7a53cf0d26a75, type: 3}
+    - time: .766666591
+      value: {fileID: 21300000, guid: c44cdf4a383a1ff40acfe6e7d93def7d, type: 3}
+    - time: .783333242
+      value: {fileID: 21300000, guid: 30a3002e98f149648a0addbf60341c3c, type: 3}
+    - time: .799999893
+      value: {fileID: 21300000, guid: 20fe61f2f6d960f45ad2848cb95caec2, type: 3}
+    - time: .816666543
+      value: {fileID: 21300000, guid: 3c7579cb5a8d63b4dbca04c8c8500180, type: 3}
+    - time: .833333194
+      value: {fileID: 21300000, guid: ac3927c219f51bf47a87f220bc8e3cf5, type: 3}
+    - time: .849999845
+      value: {fileID: 21300000, guid: bea846feac565354b9e7dda9e483c383, type: 3}
+    - time: .866666496
+      value: {fileID: 21300000, guid: 2dd66fed7abacf640956900dd724039b, type: 3}
+    - time: .883333147
+      value: {fileID: 21300000, guid: 6f1f32a0036e06547b7e20f36192210c, type: 3}
+    - time: .899999797
+      value: {fileID: 21300000, guid: 86a73cc0f2744f846afc95547237d1e9, type: 3}
+    - time: .916666448
+      value: {fileID: 21300000, guid: 2275698f447a5aa41a3ccb09fbe54ff7, type: 3}
+    - time: .933333099
+      value: {fileID: 21300000, guid: b62fc38dae85aba4399fff0856a9fd16, type: 3}
+    - time: .94999975
+      value: {fileID: 21300000, guid: ebb71bd09a9f5914eb1d4315af17aa9f, type: 3}
+    - time: .9666664
+      value: {fileID: 21300000, guid: 24484f949ac24f74d8167660716cfa42, type: 3}
+    - time: .983333051
+      value: {fileID: 21300000, guid: 74c37c2a39ab29e4a9c6d829260389ec, type: 3}
+    - time: .999999702
+      value: {fileID: 21300000, guid: 683c55fc361f4694ca95008351c42be5, type: 3}
+    - time: 1.01666641
+      value: {fileID: 21300000, guid: 3a043912fbcb82d47ba42df25f066abe, type: 3}
+    - time: 1.03333306
+      value: {fileID: 21300000, guid: 651e6f646a791c94381683a57429389f, type: 3}
+    - time: 1.04999971
+      value: {fileID: 21300000, guid: 6a6862f9ceb19fe40890337b4f667603, type: 3}
+    - time: 1.06666636
+      value: {fileID: 21300000, guid: 9ea4d5ccb004dbe478436f944f47be90, type: 3}
+    - time: 1.08333302
+      value: {fileID: 21300000, guid: e215c1a501eb968488068782199df2e1, type: 3}
+    - time: 1.09999967
+      value: {fileID: 21300000, guid: 25cf41a7ac5ac984da5fb5998ffe607e, type: 3}
+    - time: 1.11666632
+      value: {fileID: 21300000, guid: 68c17ad4f86497d4cb24fef09f97bc83, type: 3}
+    - time: 1.13333297
+      value: {fileID: 21300000, guid: 9a30cfaca08a1ae47902bf27c92e690a, type: 3}
+    - time: 1.14999962
+      value: {fileID: 21300000, guid: edf99d0fff638d845872efe91a6f78ff, type: 3}
+    - time: 1.16666627
+      value: {fileID: 21300000, guid: 004177ec57d70594596fecb6d523489a, type: 3}
+    - time: 1.18333292
+      value: {fileID: 21300000, guid: 8b871ea76d9a8d240a89e67fb38de7ac, type: 3}
+    - time: 1.19999957
+      value: {fileID: 21300000, guid: 0bdba9312c5644c4b8c4ef8a90443161, type: 3}
+    - time: 1.21666622
+      value: {fileID: 21300000, guid: 50a4a0ee63c6a254883d9f6b25020784, type: 3}
+    - time: 1.23333287
+      value: {fileID: 21300000, guid: 899cd6758ffc89c49a710727e8d4be56, type: 3}
+    - time: 1.24999952
+      value: {fileID: 21300000, guid: 6e737c4d4d914f149a344fef1a7e1037, type: 3}
+    - time: 1.26666617
+      value: {fileID: 21300000, guid: 6bd3fe9254c6056478f4bfdb26131a39, type: 3}
+    - time: 1.28333282
+      value: {fileID: 21300000, guid: 8797c1e3b273fde409b960f9dbf78a7c, type: 3}
+    - time: 1.29999948
+      value: {fileID: 21300000, guid: 05075ccc5a9bd76438a20e0a2720b023, type: 3}
+    - time: 1.31666613
+      value: {fileID: 21300000, guid: 23012fd8d5d4f0145aefb663dd826ab0, type: 3}
+    - time: 1.33333278
+      value: {fileID: 21300000, guid: e0114389445c64f4cb32f4349a0241ab, type: 3}
+    - time: 1.34999943
+      value: {fileID: 21300000, guid: aa2bfb9265156a3429083f0b20ee6573, type: 3}
+    - time: 1.36666608
+      value: {fileID: 21300000, guid: 323a185d2528ebc428fc96855199bbcf, type: 3}
+    - time: 1.38333273
+      value: {fileID: 21300000, guid: dc1d8d946c00ae846a1923e6cb3470bf, type: 3}
+    - time: 1.39999938
+      value: {fileID: 21300000, guid: 18c397ed1040c8b4391e0f4e24ee3dce, type: 3}
+    - time: 1.41666603
+      value: {fileID: 21300000, guid: d88da7969db97e845889c819c30a96ca, type: 3}
+    - time: 1.43333268
+      value: {fileID: 21300000, guid: c8a747c045f309e43a03c682c2823f36, type: 3}
+    - time: 1.44999933
+      value: {fileID: 21300000, guid: 3d4a448d9da942b41bda90b50c7b802a, type: 3}
+    - time: 1.46666598
+      value: {fileID: 21300000, guid: 2c08c24c2662f684eb88b2b7dccf0b52, type: 3}
+    - time: 1.48333263
+      value: {fileID: 21300000, guid: dcb24267d815b314d875dead0392feb8, type: 3}
+    - time: 1.49999928
+      value: {fileID: 21300000, guid: b5ed745a6a547b94f972624c612476ec, type: 3}
+    - time: 1.51666594
+      value: {fileID: 21300000, guid: 80b29c9937592964c8e646190cbfe925, type: 3}
+    - time: 1.53333259
+      value: {fileID: 21300000, guid: b71d5d4283fe9874696330623d684b2b, type: 3}
+    - time: 1.54999924
+      value: {fileID: 21300000, guid: e58d1130be755e8478a65edd1b5cd5dd, type: 3}
+    - time: 1.56666589
+      value: {fileID: 21300000, guid: c4055e432640d754d87fcf9cc8f1b515, type: 3}
+    - time: 1.58333254
+      value: {fileID: 21300000, guid: a9ad188ceb932d74dbdb0d73ad17820f, type: 3}
+    - time: 1.59999919
+      value: {fileID: 21300000, guid: 01e1b18f0ceb0654fb150774c1221b96, type: 3}
+    - time: 1.61666584
+      value: {fileID: 21300000, guid: c5ff1941cf4d32545910de31b2daad74, type: 3}
+    - time: 1.63333249
+      value: {fileID: 21300000, guid: 63b5978737e78864b80d0267e0381a47, type: 3}
+    - time: 1.64999914
+      value: {fileID: 21300000, guid: 74b87801394aa234e8756420e3ca1456, type: 3}
+    - time: 1.66666579
+      value: {fileID: 21300000, guid: 2df91e0dea433a44c80bee87b76987ac, type: 3}
+    - time: 1.68333244
+      value: {fileID: 21300000, guid: 71d0f144e8020d0408e4ee37e44bd6f3, type: 3}
+    - time: 1.69999909
+      value: {fileID: 21300000, guid: 6f6b515299deda84783a572a52d3dede, type: 3}
+    - time: 1.71666574
+      value: {fileID: 21300000, guid: 7e2ebc225a80f53488af2ff8f8aca8aa, type: 3}
+    - time: 1.7333324
+      value: {fileID: 21300000, guid: 37e643881aa4f3a46b9c5feb2f980b5c, type: 3}
+    - time: 1.74999905
+      value: {fileID: 21300000, guid: 558c6ab0805235944b60e4cb258a8373, type: 3}
+    - time: 1.7666657
+      value: {fileID: 21300000, guid: a52b6b3d3b62e7043ab61720e3f073b1, type: 3}
+    - time: 1.78333235
+      value: {fileID: 21300000, guid: 1ce91abde8049a147bf3ffb77e23c763, type: 3}
+    - time: 1.799999
+      value: {fileID: 21300000, guid: e939ec3e2990e5b46a0f0fc30bd9a041, type: 3}
+    - time: 1.81666565
+      value: {fileID: 21300000, guid: a764ebfbf40c52447904c1e9b0035764, type: 3}
+    - time: 1.8333323
+      value: {fileID: 21300000, guid: 2713a71983ad8964eb1a71d3c0fa6e19, type: 3}
+    - time: 1.84999895
+      value: {fileID: 21300000, guid: 953257a4aebd6dc4b8951dd4efb249ca, type: 3}
+    - time: 1.8666656
+      value: {fileID: 21300000, guid: fcb4382a884d22b44ab9a34014c79b46, type: 3}
+    - time: 1.88333225
+      value: {fileID: 21300000, guid: 2e251628d7cbdc34597a08e906a7af13, type: 3}
+    - time: 1.8999989
+      value: {fileID: 21300000, guid: 02521df8c0783f146b3f2c03b42c784a, type: 3}
+    - time: 1.91666555
+      value: {fileID: 21300000, guid: 0bd69d5465232654ba2d3dcfb7046227, type: 3}
+    - time: 1.9333322
+      value: {fileID: 21300000, guid: 7c1b6778d3776914c877eede2233a9b5, type: 3}
+    - time: 1.94999886
+      value: {fileID: 21300000, guid: 9bdf1752ce29c6b4586b136804ff909a, type: 3}
+    - time: 1.96666551
+      value: {fileID: 21300000, guid: ec4fd590c3049f84e8e3d778b5796e29, type: 3}
+    - time: 1.98333216
+      value: {fileID: 21300000, guid: 75981cc8b9fe3a74b8a7ae9ee4764207, type: 3}
+    - time: 1.99999881
+      value: {fileID: 21300000, guid: 8b66d8c2406b3014a80fc015bd6a059d, type: 3}
+    - time: 2.01666546
+      value: {fileID: 21300000, guid: af934690467f2e24d84b8a7ca2db9b8a, type: 3}
+    - time: 2.03333211
+      value: {fileID: 21300000, guid: 5331be51ada17014fb1b0788b7f6885a, type: 3}
+    - time: 2.04999876
+      value: {fileID: 21300000, guid: 94dae2503baca274fad32473bbef81f6, type: 3}
+    - time: 2.06666541
+      value: {fileID: 21300000, guid: dc7b19dda25e5554da95e4602a463f87, type: 3}
+    - time: 2.08333206
+      value: {fileID: 21300000, guid: 634a6c6aaf3a5324cbe2d765e7610c30, type: 3}
+    - time: 2.09999871
+      value: {fileID: 21300000, guid: 33de7cf64d5130349abe8fb9d2b65bc6, type: 3}
+    - time: 2.11666536
+      value: {fileID: 21300000, guid: 6f50b33d930b13e4993d25670187d21b, type: 3}
+    - time: 2.13333201
+      value: {fileID: 21300000, guid: 6f86edacb1269724ca6c87a34ecccf72, type: 3}
+    - time: 2.14999866
+      value: {fileID: 21300000, guid: 67c54f8926923ba44b06a4374374ec47, type: 3}
+    - time: 2.16666532
+      value: {fileID: 21300000, guid: 8079c33cf4ac92e4caac623e281ced58, type: 3}
+    - time: 2.18333197
+      value: {fileID: 21300000, guid: fc73fc0659eac6544bcf06967e4e60c9, type: 3}
+    - time: 2.19999862
+      value: {fileID: 21300000, guid: 5ac62a17323bf844a87cc0680c0e93b0, type: 3}
+    - time: 2.21666527
+      value: {fileID: 21300000, guid: 546d65c9bbb537f42b836c581f2919e5, type: 3}
+    - time: 2.23333192
+      value: {fileID: 21300000, guid: bba81f227472bd14fabe3328603d56c7, type: 3}
+    - time: 2.24999857
+      value: {fileID: 21300000, guid: 7047de40fbc8e32428fb75735ee9ed56, type: 3}
+    - time: 2.26666522
+      value: {fileID: 21300000, guid: 973513a5302213441a97b2e0571ec60f, type: 3}
+    - time: 2.28333187
+      value: {fileID: 21300000, guid: bc53f96691fae114e99faa91f7a6f620, type: 3}
+    - time: 2.29999852
+      value: {fileID: 21300000, guid: 7a15e0af7f46e8b4cb6bc7b5ed27f28a, type: 3}
+    - time: 2.31666517
+      value: {fileID: 21300000, guid: d5b5873e07e71154baf44cd80d6adf8c, type: 3}
+    - time: 2.33333182
+      value: {fileID: 21300000, guid: e1db8c6e3a2bf4549b8a4c5bb431613f, type: 3}
+    - time: 2.34999847
+      value: {fileID: 21300000, guid: 0cfe5680ea941fd4dbf5b3e215e99924, type: 3}
+    - time: 2.36666512
+      value: {fileID: 21300000, guid: e410664a97f05634f8c2a7c3abff0dbc, type: 3}
+    - time: 2.38333178
+      value: {fileID: 21300000, guid: 0729af0d5502c8149bf9100bf3face2d, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 0
+      attribute: 0
+      script: {fileID: 0}
+      classID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: efcf36e06bd30c848af85b3a4d23a386, type: 3}
+    - {fileID: 21300000, guid: 67076622fef39994aa6ba1d11a1a38a6, type: 3}
+    - {fileID: 21300000, guid: ff554484d10d5e343a2fc240ec8e9993, type: 3}
+    - {fileID: 21300000, guid: ff78fc64d8f73f949b4f774775ba80e6, type: 3}
+    - {fileID: 21300000, guid: cdf1f0ad2eed6f34181da0b73e763f1b, type: 3}
+    - {fileID: 21300000, guid: c8c69215da5669449bbc8dd1b56a17c4, type: 3}
+    - {fileID: 21300000, guid: a1091542ff960484eb688857ebb161eb, type: 3}
+    - {fileID: 21300000, guid: 60b9986dab9e1af468c6efe37930f57e, type: 3}
+    - {fileID: 21300000, guid: 8490ea76ffc2d6e48837b126b2367b9c, type: 3}
+    - {fileID: 21300000, guid: 52e76ed3b4a408145a6d19495ee4f4ca, type: 3}
+    - {fileID: 21300000, guid: b53aa7d57961aa24981fe345c9b0b08d, type: 3}
+    - {fileID: 21300000, guid: a84ce4ea0e2a43742af082ea85856202, type: 3}
+    - {fileID: 21300000, guid: 203a3c6b62678434ca601a0324efdab8, type: 3}
+    - {fileID: 21300000, guid: 04194e8922f515447a5977fa826fb638, type: 3}
+    - {fileID: 21300000, guid: 84b69853f7f1faf48854b80d7c6ceca1, type: 3}
+    - {fileID: 21300000, guid: fd5d9a3372abaf242967bd88dd291687, type: 3}
+    - {fileID: 21300000, guid: 15f9d16ecd24cb540a43f783e1d79069, type: 3}
+    - {fileID: 21300000, guid: 9245cd65425c7a249bd16649059f8d8d, type: 3}
+    - {fileID: 21300000, guid: b8dbd01cf9ce49f4285b646bbe7aa860, type: 3}
+    - {fileID: 21300000, guid: 4ac96dec9fa8e5f4d8d7fa100be76432, type: 3}
+    - {fileID: 21300000, guid: a5d70da4a887e914cbe5c5e685d26c18, type: 3}
+    - {fileID: 21300000, guid: 62f372ab7960bb24d97fd921a999f12f, type: 3}
+    - {fileID: 21300000, guid: d7c07db76e8dc1045b1fba02ab549a2b, type: 3}
+    - {fileID: 21300000, guid: 5668cce839543bd4497f7b3bd17d3d0f, type: 3}
+    - {fileID: 21300000, guid: cacf644ea078c07448cdfb7993f7d33d, type: 3}
+    - {fileID: 21300000, guid: b82748b089e7be249b58c455c3f91f3b, type: 3}
+    - {fileID: 21300000, guid: 408bcfd74bb30274b912477f68fcde32, type: 3}
+    - {fileID: 21300000, guid: 07cff024e20c92848bddced9be16de49, type: 3}
+    - {fileID: 21300000, guid: 56bb043ddca6f534c885b3f5cca2e02b, type: 3}
+    - {fileID: 21300000, guid: d6e5ffad3f3a78149b30c3c498833565, type: 3}
+    - {fileID: 21300000, guid: a6156f6904021714c9a984229d4ef4e1, type: 3}
+    - {fileID: 21300000, guid: ac2b1c6c7d4bf2840b32eb86cef0be84, type: 3}
+    - {fileID: 21300000, guid: 426b6706439380f4ab2b543e17045013, type: 3}
+    - {fileID: 21300000, guid: 40a4ce27cab58a44c9e124054958f914, type: 3}
+    - {fileID: 21300000, guid: c8912d018d402c447951e2768ff0122e, type: 3}
+    - {fileID: 21300000, guid: d0b56b5b9131e114886eb5d777600916, type: 3}
+    - {fileID: 21300000, guid: 379b74eb47a5ce9448c3d8e333166064, type: 3}
+    - {fileID: 21300000, guid: bf310f0be082e4145be6d1dd3bfa8941, type: 3}
+    - {fileID: 21300000, guid: ca4f812330ff83f41b64e5a3fbc65934, type: 3}
+    - {fileID: 21300000, guid: 5e952f3e6538a6d42a173a1516a293e3, type: 3}
+    - {fileID: 21300000, guid: 1d44207c318df5e40bd6ec4711275c73, type: 3}
+    - {fileID: 21300000, guid: c149c501be34d6a4fbb1d3674dffa5fd, type: 3}
+    - {fileID: 21300000, guid: 40e96f6de442b8648b6a69559aea8ebb, type: 3}
+    - {fileID: 21300000, guid: 506a121eaca41c84680600324e217c0a, type: 3}
+    - {fileID: 21300000, guid: 781ad40a5711f104283849397baa3f1b, type: 3}
+    - {fileID: 21300000, guid: f87a26a0ec085bd42bd7a53cf0d26a75, type: 3}
+    - {fileID: 21300000, guid: c44cdf4a383a1ff40acfe6e7d93def7d, type: 3}
+    - {fileID: 21300000, guid: 30a3002e98f149648a0addbf60341c3c, type: 3}
+    - {fileID: 21300000, guid: 20fe61f2f6d960f45ad2848cb95caec2, type: 3}
+    - {fileID: 21300000, guid: 3c7579cb5a8d63b4dbca04c8c8500180, type: 3}
+    - {fileID: 21300000, guid: ac3927c219f51bf47a87f220bc8e3cf5, type: 3}
+    - {fileID: 21300000, guid: bea846feac565354b9e7dda9e483c383, type: 3}
+    - {fileID: 21300000, guid: 2dd66fed7abacf640956900dd724039b, type: 3}
+    - {fileID: 21300000, guid: 6f1f32a0036e06547b7e20f36192210c, type: 3}
+    - {fileID: 21300000, guid: 86a73cc0f2744f846afc95547237d1e9, type: 3}
+    - {fileID: 21300000, guid: 2275698f447a5aa41a3ccb09fbe54ff7, type: 3}
+    - {fileID: 21300000, guid: b62fc38dae85aba4399fff0856a9fd16, type: 3}
+    - {fileID: 21300000, guid: ebb71bd09a9f5914eb1d4315af17aa9f, type: 3}
+    - {fileID: 21300000, guid: 24484f949ac24f74d8167660716cfa42, type: 3}
+    - {fileID: 21300000, guid: 74c37c2a39ab29e4a9c6d829260389ec, type: 3}
+    - {fileID: 21300000, guid: 683c55fc361f4694ca95008351c42be5, type: 3}
+    - {fileID: 21300000, guid: 3a043912fbcb82d47ba42df25f066abe, type: 3}
+    - {fileID: 21300000, guid: 651e6f646a791c94381683a57429389f, type: 3}
+    - {fileID: 21300000, guid: 6a6862f9ceb19fe40890337b4f667603, type: 3}
+    - {fileID: 21300000, guid: 9ea4d5ccb004dbe478436f944f47be90, type: 3}
+    - {fileID: 21300000, guid: e215c1a501eb968488068782199df2e1, type: 3}
+    - {fileID: 21300000, guid: 25cf41a7ac5ac984da5fb5998ffe607e, type: 3}
+    - {fileID: 21300000, guid: 68c17ad4f86497d4cb24fef09f97bc83, type: 3}
+    - {fileID: 21300000, guid: 9a30cfaca08a1ae47902bf27c92e690a, type: 3}
+    - {fileID: 21300000, guid: edf99d0fff638d845872efe91a6f78ff, type: 3}
+    - {fileID: 21300000, guid: 004177ec57d70594596fecb6d523489a, type: 3}
+    - {fileID: 21300000, guid: 8b871ea76d9a8d240a89e67fb38de7ac, type: 3}
+    - {fileID: 21300000, guid: 0bdba9312c5644c4b8c4ef8a90443161, type: 3}
+    - {fileID: 21300000, guid: 50a4a0ee63c6a254883d9f6b25020784, type: 3}
+    - {fileID: 21300000, guid: 899cd6758ffc89c49a710727e8d4be56, type: 3}
+    - {fileID: 21300000, guid: 6e737c4d4d914f149a344fef1a7e1037, type: 3}
+    - {fileID: 21300000, guid: 6bd3fe9254c6056478f4bfdb26131a39, type: 3}
+    - {fileID: 21300000, guid: 8797c1e3b273fde409b960f9dbf78a7c, type: 3}
+    - {fileID: 21300000, guid: 05075ccc5a9bd76438a20e0a2720b023, type: 3}
+    - {fileID: 21300000, guid: 23012fd8d5d4f0145aefb663dd826ab0, type: 3}
+    - {fileID: 21300000, guid: e0114389445c64f4cb32f4349a0241ab, type: 3}
+    - {fileID: 21300000, guid: aa2bfb9265156a3429083f0b20ee6573, type: 3}
+    - {fileID: 21300000, guid: 323a185d2528ebc428fc96855199bbcf, type: 3}
+    - {fileID: 21300000, guid: dc1d8d946c00ae846a1923e6cb3470bf, type: 3}
+    - {fileID: 21300000, guid: 18c397ed1040c8b4391e0f4e24ee3dce, type: 3}
+    - {fileID: 21300000, guid: d88da7969db97e845889c819c30a96ca, type: 3}
+    - {fileID: 21300000, guid: c8a747c045f309e43a03c682c2823f36, type: 3}
+    - {fileID: 21300000, guid: 3d4a448d9da942b41bda90b50c7b802a, type: 3}
+    - {fileID: 21300000, guid: 2c08c24c2662f684eb88b2b7dccf0b52, type: 3}
+    - {fileID: 21300000, guid: dcb24267d815b314d875dead0392feb8, type: 3}
+    - {fileID: 21300000, guid: b5ed745a6a547b94f972624c612476ec, type: 3}
+    - {fileID: 21300000, guid: 80b29c9937592964c8e646190cbfe925, type: 3}
+    - {fileID: 21300000, guid: b71d5d4283fe9874696330623d684b2b, type: 3}
+    - {fileID: 21300000, guid: e58d1130be755e8478a65edd1b5cd5dd, type: 3}
+    - {fileID: 21300000, guid: c4055e432640d754d87fcf9cc8f1b515, type: 3}
+    - {fileID: 21300000, guid: a9ad188ceb932d74dbdb0d73ad17820f, type: 3}
+    - {fileID: 21300000, guid: 01e1b18f0ceb0654fb150774c1221b96, type: 3}
+    - {fileID: 21300000, guid: c5ff1941cf4d32545910de31b2daad74, type: 3}
+    - {fileID: 21300000, guid: 63b5978737e78864b80d0267e0381a47, type: 3}
+    - {fileID: 21300000, guid: 74b87801394aa234e8756420e3ca1456, type: 3}
+    - {fileID: 21300000, guid: 2df91e0dea433a44c80bee87b76987ac, type: 3}
+    - {fileID: 21300000, guid: 71d0f144e8020d0408e4ee37e44bd6f3, type: 3}
+    - {fileID: 21300000, guid: 6f6b515299deda84783a572a52d3dede, type: 3}
+    - {fileID: 21300000, guid: 7e2ebc225a80f53488af2ff8f8aca8aa, type: 3}
+    - {fileID: 21300000, guid: 37e643881aa4f3a46b9c5feb2f980b5c, type: 3}
+    - {fileID: 21300000, guid: 558c6ab0805235944b60e4cb258a8373, type: 3}
+    - {fileID: 21300000, guid: a52b6b3d3b62e7043ab61720e3f073b1, type: 3}
+    - {fileID: 21300000, guid: 1ce91abde8049a147bf3ffb77e23c763, type: 3}
+    - {fileID: 21300000, guid: e939ec3e2990e5b46a0f0fc30bd9a041, type: 3}
+    - {fileID: 21300000, guid: a764ebfbf40c52447904c1e9b0035764, type: 3}
+    - {fileID: 21300000, guid: 2713a71983ad8964eb1a71d3c0fa6e19, type: 3}
+    - {fileID: 21300000, guid: 953257a4aebd6dc4b8951dd4efb249ca, type: 3}
+    - {fileID: 21300000, guid: fcb4382a884d22b44ab9a34014c79b46, type: 3}
+    - {fileID: 21300000, guid: 2e251628d7cbdc34597a08e906a7af13, type: 3}
+    - {fileID: 21300000, guid: 02521df8c0783f146b3f2c03b42c784a, type: 3}
+    - {fileID: 21300000, guid: 0bd69d5465232654ba2d3dcfb7046227, type: 3}
+    - {fileID: 21300000, guid: 7c1b6778d3776914c877eede2233a9b5, type: 3}
+    - {fileID: 21300000, guid: 9bdf1752ce29c6b4586b136804ff909a, type: 3}
+    - {fileID: 21300000, guid: ec4fd590c3049f84e8e3d778b5796e29, type: 3}
+    - {fileID: 21300000, guid: 75981cc8b9fe3a74b8a7ae9ee4764207, type: 3}
+    - {fileID: 21300000, guid: 8b66d8c2406b3014a80fc015bd6a059d, type: 3}
+    - {fileID: 21300000, guid: af934690467f2e24d84b8a7ca2db9b8a, type: 3}
+    - {fileID: 21300000, guid: 5331be51ada17014fb1b0788b7f6885a, type: 3}
+    - {fileID: 21300000, guid: 94dae2503baca274fad32473bbef81f6, type: 3}
+    - {fileID: 21300000, guid: dc7b19dda25e5554da95e4602a463f87, type: 3}
+    - {fileID: 21300000, guid: 634a6c6aaf3a5324cbe2d765e7610c30, type: 3}
+    - {fileID: 21300000, guid: 33de7cf64d5130349abe8fb9d2b65bc6, type: 3}
+    - {fileID: 21300000, guid: 6f50b33d930b13e4993d25670187d21b, type: 3}
+    - {fileID: 21300000, guid: 6f86edacb1269724ca6c87a34ecccf72, type: 3}
+    - {fileID: 21300000, guid: 67c54f8926923ba44b06a4374374ec47, type: 3}
+    - {fileID: 21300000, guid: 8079c33cf4ac92e4caac623e281ced58, type: 3}
+    - {fileID: 21300000, guid: fc73fc0659eac6544bcf06967e4e60c9, type: 3}
+    - {fileID: 21300000, guid: 5ac62a17323bf844a87cc0680c0e93b0, type: 3}
+    - {fileID: 21300000, guid: 546d65c9bbb537f42b836c581f2919e5, type: 3}
+    - {fileID: 21300000, guid: bba81f227472bd14fabe3328603d56c7, type: 3}
+    - {fileID: 21300000, guid: 7047de40fbc8e32428fb75735ee9ed56, type: 3}
+    - {fileID: 21300000, guid: 973513a5302213441a97b2e0571ec60f, type: 3}
+    - {fileID: 21300000, guid: bc53f96691fae114e99faa91f7a6f620, type: 3}
+    - {fileID: 21300000, guid: 7a15e0af7f46e8b4cb6bc7b5ed27f28a, type: 3}
+    - {fileID: 21300000, guid: d5b5873e07e71154baf44cd80d6adf8c, type: 3}
+    - {fileID: 21300000, guid: e1db8c6e3a2bf4549b8a4c5bb431613f, type: 3}
+    - {fileID: 21300000, guid: 0cfe5680ea941fd4dbf5b3e215e99924, type: 3}
+    - {fileID: 21300000, guid: e410664a97f05634f8c2a7c3abff0dbc, type: 3}
+    - {fileID: 21300000, guid: 0729af0d5502c8149bf9100bf3face2d, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 2.39999843
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []
