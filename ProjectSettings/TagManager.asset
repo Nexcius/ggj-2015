@@ -15,8 +15,8 @@ TagManager:
   Builtin Layer 7: 
   User Layer 8: World
   User Layer 9: Enemy
-  User Layer 10: 
-  User Layer 11: 
+  User Layer 10: Trigger
+  User Layer 11: Projectile
   User Layer 12: 
   User Layer 13: 
   User Layer 14: 
@@ -38,7 +38,23 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
+  - name: Background
+    userID: 1
+    uniqueID: 1375557037
+    locked: 0
+  - name: MidLayer
+    userID: 2
+    uniqueID: 3519543335
+    locked: 0
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    userID: 3
+    uniqueID: 4190095131
+    locked: 0
+  - name: UI
+    userID: 4
+    uniqueID: 1237157657
     locked: 0
