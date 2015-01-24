@@ -8,10 +8,16 @@ public class Projectile : Entity {
     [SerializeField]
     protected float projectileSpeed = 2.0f;
 
+	[SerializeField]
+	protected GameObject monsterRespawnObj;
+	private MonsterRespawn monsterRespawn;
+
 	protected GameObject splatter;
 
 	// Use this for initialization
 	void Start () {
+		monsterRespawn = monsterRespawnObj.GetComponent<MonsterRespawn> ();
+
 		splatter = transform.FindChild ("Splatter").gameObject;
 
 	}
@@ -41,6 +47,7 @@ public class Projectile : Entity {
 			velocity = Vector2.zero;
 
 			col.gameObject.SetActive(false);
+			monsterRespawn.RegisterForRespawn(col.gameObject, 10.0f);
 		}
 		if (col.gameObject.layer == LayerMask.NameToLayer ("World")) {
 			gameObject.SetActive(false);
@@ -69,6 +76,7 @@ public class Projectile : Entity {
         this.timeToLive = timeToLive;
         gameObject.SetActive(true);
 
+		transform.rigidbody2D.angularVelocity = 3000.0f;
     }
 
 }
