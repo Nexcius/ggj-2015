@@ -22,6 +22,8 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector]
     public Vector3 velocity;
 
+	private bool onLadder = false;
+
 
     void Awake()
     {
@@ -42,6 +44,20 @@ public class PlayerInput : MonoBehaviour
     }
 
 
+	void OnTriggerEnter2D(Collider2D coll) {
+		if (coll.tag == "Ladder") {
+			onLadder = true;
+			rigidbody2D.gravityScale = 0.0f;
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D coll) {
+		if (coll.tag == "Ladder") {
+			onLadder = false;
+			rigidbody2D.gravityScale = 1.0f;
+		}
+	}
+
     void Update()
     {
         // grab our current velocity to use as a base for all calculations
@@ -49,6 +65,19 @@ public class PlayerInput : MonoBehaviour
 
         if (_controller.isGrounded)
             velocity.y = 0;
+
+
+		if (onLadder) {
+			velocity.y = 0.0f;
+			
+			if(Input.GetKey(KeyCode.W)) {
+				velocity.y = 3.0f;
+			}
+			else if(Input.GetKey(KeyCode.S)) {
+				velocity.y = -3.0f;
+			}
+		}
+
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
@@ -87,6 +116,9 @@ public class PlayerInput : MonoBehaviour
                 _animator.Play(Animator.StringToHash("Jump"));
             }
         }
+
+
+
 
 
         // apply horizontal speed smoothing it
