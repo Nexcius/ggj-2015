@@ -5,10 +5,13 @@ using System.Collections;
 public class IngameCam : MonoBehaviour {
 
 	[SerializeField]
-	protected float sfinxDuration = 9.0f;
+	protected float sfinxDuration = 4.5f;
 
 	[SerializeField]
-	protected float napoleonDuration = 9.0f;
+	protected float napoleonDuration = 4.5f;
+
+	[SerializeField]
+	protected float moonlandingDuration = 7.2f;
 
 	private float duration = 0.0f;
 	private string clip = "sfinx";
@@ -36,14 +39,20 @@ public class IngameCam : MonoBehaviour {
 			return;
 		}
 
-		if(Random.value > 0.5f) {
+		float r = Random.value;
+		if(r > 0.66f) {
 			duration = napoleonDuration;
 			clip = "napoleon";
+		}
+		else if(r > 0.33f) {
+			duration = moonlandingDuration;
+			clip = "moonlanding";
 		}
 		else {
 			duration = sfinxDuration;
 			clip = "sfinx";
 		}
+
 
 		startTime = Time.time;
 		gameObject.SetActive (true);
