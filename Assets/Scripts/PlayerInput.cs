@@ -68,7 +68,7 @@ public class PlayerInput : MonoBehaviour
 
 
 		if (onLadder) {
-			velocity.y = 0.0f;
+			velocity.y = -1.0f;
 			
 			if(Input.GetKey(KeyCode.W)) {
 				velocity.y = 3.0f;
