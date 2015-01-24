@@ -27,4 +27,6 @@ public class MonsterController : Entity {
         base.FixedUpdate();
         
     }
+
+    
 }
