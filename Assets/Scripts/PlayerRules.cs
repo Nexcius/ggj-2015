@@ -30,14 +30,17 @@ public class PlayerRules : MonoBehaviour {
 		if(sceneChance.Length > 0) {
 			if(sceneChance == "WinScreen") {
 				transform.position = timeTravelDevice.transform.position + new Vector3(2.0f, 1.0f, 0.0f);
-				renderer.enabled = false;
+
 				for(int i = 0; i < transform.childCount; i++) {
 					transform.GetChild(i).gameObject.SetActive(false);
 				}
-				GameObject go = GameObject.Find("Retricle");
-				if(go != null) {
-					go.SetActive(false);
-				}
+			}
+
+			renderer.enabled = false;
+
+			GameObject go = GameObject.Find("Retricle");
+			if(go != null) {
+				go.SetActive(false);
 			}
 
 			if(changeSceneTime <= 0.0f) {

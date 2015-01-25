@@ -13,8 +13,13 @@ public class IngameCam : MonoBehaviour {
 	[SerializeField]
 	protected float moonlandingDuration = 7.2f;
 
+	[SerializeField]
+	private float hitlerDuration = 4.2f;
+
 	private float duration = 0.0f;
 	private string clip = "sfinx";
+
+
 
 	private float startTime = 0.0f;
 	Animator _animator;
@@ -40,19 +45,22 @@ public class IngameCam : MonoBehaviour {
 		}
 
 		float r = Random.value;
-		if(r > 0.66f) {
+		if(r > 0.75f) {
 			duration = napoleonDuration;
 			clip = "napoleon";
 		}
-		else if(r > 0.33f) {
+		else if(r > 0.5f) {
 			duration = moonlandingDuration;
 			clip = "moonlanding";
+		}
+		else if(r > 0.25f) {
+			duration = hitlerDuration;
+			clip = "hitler";
 		}
 		else {
 			duration = sfinxDuration;
 			clip = "sfinx";
 		}
-
 
 		startTime = Time.time;
 		gameObject.SetActive (true);

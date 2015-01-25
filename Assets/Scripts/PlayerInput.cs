@@ -72,9 +72,14 @@ public class PlayerInput : MonoBehaviour
 			
 			if(Input.GetKey(KeyCode.W)) {
 				velocity.y = 3.0f;
+				_animator.Play(Animator.StringToHash("PlayerClimb"));
 			}
 			else if(Input.GetKey(KeyCode.S)) {
 				velocity.y = -3.0f;
+				_animator.Play(Animator.StringToHash("PlayerClimbReverse"));
+			}
+			else {
+				_animator.Play(Animator.StringToHash("PlayerClimbReverse"));
 			}
 		}
 
